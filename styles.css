@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #description {
+    text-align: center;
+  }
+  
+  #chart {
+    margin-top: 20px;
+  }
+  
+  .tile {
+    stroke: #fff;
+  }
+  
+  #tooltip {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  #legend {
+    width: 350px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  .legend-item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .legend-item rect {
+    display: inline-block;
+  }
+  
+  .legend-item-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; 
+  }
+
+  
